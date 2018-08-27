@@ -1,6 +1,6 @@
 /* Background Image */
 body {
-    background-image: url(gravel.png);
+    background-image: url(images/gravel.png);
 }
 
 /* Header Styles */
@@ -38,6 +38,21 @@ body {
     border-radius: 10px;
 }
 
+/* Portfolio Section */
+.abContainer {
+    max-width: 700px;
+    max-height: 700px;
+    position: relative;
+    left: 400px;
+}
+.aboutImage {
+    position: relative;
+    bottom: 10px;
+}
+.picCaption {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 1px;
+}
 /* Footer */
 .footerContainer {
     text-align: center;
