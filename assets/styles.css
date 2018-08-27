@@ -1,3 +1,8 @@
+/* Background Image */
+body {
+    background-image: url(gravel.png);
+}
+
 /* Header Styles */
 .cameron {
     background-color: teal;
@@ -5,4 +10,38 @@
     border-radius: 20px;
     background: teal;
     padding: 20px; 
+}
+
+/* Picture Float */
+.camPic {
+    transform: rotate(90deg);
+    float: left;
+    margin-bottom: 25px;
+    margin-top: 15px;
+}
+
+/* About Section */
+.aboutContainer {
+    max-width: 960px;
+    background-color: white;
+    padding: 20px;
+    border-style: solid;
+    border-radius: 30px;
+    position: relative;
+    left: 290px;
+}
+
+#aboutMe {
+    text-align: center;
+    color: white;
+    background-color: teal;
+    border-radius: 10px;
+}
+
+/* Footer */
+.footerContainer {
+    text-align: center;
+    color: white;
+    background-color: grey;
+    border-top: 5px solid teal;
 }
