@@ -53,6 +53,19 @@ body {
     background-color: rgba(0, 0, 0, 0.5);
     padding: 1px;
 }
+
+/* Contact Page */
+.sendButton {
+    background-color: teal;
+    color: white;
+}
+button:hover {
+    background-color: blue;
+}
+#pCenter {
+    text-align: center;
+}
+
 /* Footer */
 .footerContainer {
     text-align: center;
